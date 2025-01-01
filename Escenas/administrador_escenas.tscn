@@ -1,0 +1,95 @@
+[gd_scene load_steps=8 format=3 uid="uid://5wfqk7p0ft5d"]
+
+[ext_resource type="PackedScene" uid="uid://dnsyelteelwp3" path="res://Escenas/mapa.tscn" id="1_qphtj"]
+[ext_resource type="Script" path="res://scr/administrador_escenas.gd" id="1_waw0x"]
+[ext_resource type="PackedScene" uid="uid://6cvy5f1hf1ro" path="res://Escenas/menu.tscn" id="3_eu5vx"]
+
+[sub_resource type="Animation" id="Animation_j4bu7"]
+resource_name = "Colocar"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 1)]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("..")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.966667),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"terminar_transicion"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_4ogj8"]
+resource_name = "Quitar"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_woh3e"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_gifsc"]
+_data = {
+"Colocar": SubResource("Animation_j4bu7"),
+"Quitar": SubResource("Animation_4ogj8"),
+"RESET": SubResource("Animation_woh3e")
+}
+
+[node name="AdministradorEscenas" type="Node2D"]
+script = ExtResource("1_waw0x")
+
+[node name="EscenaActual" type="Node2D" parent="."]
+
+[node name="mapa" parent="EscenaActual" instance=ExtResource("1_qphtj")]
+
+[node name="Menu" parent="." instance=ExtResource("3_eu5vx")]
+
+[node name="TransicionPantalla" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="TransicionPantalla"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="TransicionPantalla"]
+libraries = {
+"": SubResource("AnimationLibrary_gifsc")
+}

@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://c2ibokrp4kqa7"]
+
+[ext_resource type="Texture2D" uid="uid://dwq5k1hy4f4ck" path="res://Assets/Buildings/oaks_lab.png" id="1_p51tq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2bcip"]
+size = Vector2(112, 64)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+z_as_relative = false
+y_sort_enabled = true
+collision_layer = 6
+collision_mask = 0
+
+[node name="OaksLab" type="Sprite2D" parent="."]
+position = Vector2(168, 88)
+texture = ExtResource("1_p51tq")
+
+[node name="CollisionPolygon2D" type="CollisionShape2D" parent="."]
+position = Vector2(168, 96)
+shape = SubResource("RectangleShape2D_2bcip")

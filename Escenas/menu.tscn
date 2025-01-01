@@ -1,0 +1,125 @@
+[gd_scene load_steps=5 format=3 uid="uid://6cvy5f1hf1ro"]
+
+[ext_resource type="Script" path="res://scr/menu.gd" id="1_lme0i"]
+[ext_resource type="Texture2D" uid="uid://bwfnf7ubm1vw8" path="res://Assets/UI/menu_box_1.png" id="2_sfrq7"]
+[ext_resource type="FontFile" uid="uid://bbynwymuraxev" path="res://Assets/UI/pkmnfl.ttf" id="3_0vpmi"]
+[ext_resource type="Texture2D" uid="uid://kvk37pr3kuyc" path="res://Assets/UI/ui_arrow_left_right.png" id="4_ey681"]
+
+[node name="Menu" type="CanvasLayer"]
+script = ExtResource("1_lme0i")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Control"]
+layout_mode = 0
+offset_left = 176.0
+offset_top = 24.0
+offset_right = 238.0
+offset_bottom = 136.0
+texture = ExtResource("2_sfrq7")
+patch_margin_left = 6
+patch_margin_top = 6
+patch_margin_right = 6
+patch_margin_bottom = 6
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/NinePatchRect"]
+custom_minimum_size = Vector2(50, 11)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 14.0
+offset_top = 6.0
+offset_right = 2.0
+offset_bottom = -2.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Pokemon" type="RichTextLabel" parent="Control/NinePatchRect/VBoxContainer"]
+clip_contents = false
+custom_minimum_size = Vector2(50, 11)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/default_color = Color(0.435294, 0.435294, 0.533333, 1)
+theme_override_fonts/normal_font = ExtResource("3_0vpmi")
+theme_override_font_sizes/normal_font_size = 12
+text = "POKeMON	"
+fit_content = true
+scroll_active = false
+
+[node name="Mochila" type="RichTextLabel" parent="Control/NinePatchRect/VBoxContainer"]
+clip_contents = false
+custom_minimum_size = Vector2(50, 11)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/default_color = Color(0.435294, 0.435294, 0.533333, 1)
+theme_override_fonts/normal_font = ExtResource("3_0vpmi")
+theme_override_font_sizes/normal_font_size = 12
+text = "MOCHILA"
+fit_content = true
+scroll_active = false
+
+[node name="Jugador" type="RichTextLabel" parent="Control/NinePatchRect/VBoxContainer"]
+clip_contents = false
+custom_minimum_size = Vector2(50, 11)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/default_color = Color(0.435294, 0.435294, 0.533333, 1)
+theme_override_fonts/normal_font = ExtResource("3_0vpmi")
+theme_override_font_sizes/normal_font_size = 12
+text = "Nombre"
+fit_content = true
+scroll_active = false
+
+[node name="Guardar" type="RichTextLabel" parent="Control/NinePatchRect/VBoxContainer"]
+clip_contents = false
+custom_minimum_size = Vector2(50, 11)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/default_color = Color(0.435294, 0.435294, 0.533333, 1)
+theme_override_fonts/normal_font = ExtResource("3_0vpmi")
+theme_override_font_sizes/normal_font_size = 12
+text = "GUARDAR"
+fit_content = true
+scroll_active = false
+
+[node name="Opciones" type="RichTextLabel" parent="Control/NinePatchRect/VBoxContainer"]
+clip_contents = false
+custom_minimum_size = Vector2(50, 11)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_colors/default_color = Color(0.435294, 0.435294, 0.533333, 1)
+theme_override_fonts/normal_font = ExtResource("3_0vpmi")
+theme_override_font_sizes/normal_font_size = 12
+text = "CONFIG"
+fit_content = true
+scroll_active = false
+
+[node name="Salir" type="RichTextLabel" parent="Control/NinePatchRect/VBoxContainer"]
+clip_contents = false
+custom_minimum_size = Vector2(50, 11)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/default_color = Color(0.435294, 0.435294, 0.533333, 1)
+theme_override_fonts/normal_font = ExtResource("3_0vpmi")
+theme_override_font_sizes/normal_font_size = 12
+text = "SALIR"
+fit_content = true
+scroll_active = false
+
+[node name="TextureRect" type="TextureRect" parent="Control/NinePatchRect"]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 6.0
+offset_right = 13.0
+offset_bottom = 16.0
+texture = ExtResource("4_ey681")

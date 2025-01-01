@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3 uid="uid://d2647oas3bo2w"]
+
+[ext_resource type="Texture2D" uid="uid://cj6jot2h5eo27" path="res://Assets/Buildings/pallet town/player_home_floor_1.png" id="1_tre0w"]
+[ext_resource type="Texture2D" uid="uid://cvopcica58ucp" path="res://Assets/Buildings/pallet town/mat.png" id="2_iejw2"]
+[ext_resource type="PackedScene" uid="uid://dgtb5oms8qohk" path="res://Escenas/bruno.tscn" id="3_j8hof"]
+[ext_resource type="PackedScene" uid="uid://cg07jggcmwdwh" path="res://Escenas/puerta.tscn" id="4_jcjix"]
+
+[node name="casa" type="Node2D"]
+
+[node name="fondo" type="ColorRect" parent="."]
+offset_right = 576.0
+offset_bottom = 344.0
+color = Color(0, 0, 0, 1)
+
+[node name="laboratorio" type="Sprite2D" parent="."]
+position = Vector2(280, 160)
+texture = ExtResource("1_tre0w")
+
+[node name="Mat" type="Sprite2D" parent="."]
+position = Vector2(240, 224)
+texture = ExtResource("2_iejw2")
+
+[node name="escena" type="Node2D" parent="."]
+z_as_relative = false
+y_sort_enabled = true
+position = Vector2(280, 160)
+
+[node name="Bruno" parent="escena" instance=ExtResource("3_j8hof")]
+position = Vector2(-40, 64)
+walk_speed = 5.0
+
+[node name="Puerta" parent="." instance=ExtResource("4_jcjix")]
+position = Vector2(240, 240)
+nueva_escena = "res://Escenas/mapa.tscn"
+es_invisible = true
+spawn_location = Vector2(-56, -40)
+spawn_direction = Vector2(0, 1)
+
+[node name="coliciones" type="Node2D" parent="."]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="coliciones"]
+collision_layer = 2
+collision_mask = 0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="coliciones/StaticBody2D"]
+polygon = PackedVector2Array(184, 232, 184, 120, 344, 120, 344, 136, 376, 136, 376, 232, 248, 232, 248, 248, 392, 248, 392, 104, 168, 104, 168, 248, 232, 248, 232, 232)

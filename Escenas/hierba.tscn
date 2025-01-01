@@ -1,0 +1,85 @@
+[gd_scene load_steps=8 format=3 uid="uid://dt6imp7cuglec"]
+
+[ext_resource type="Script" path="res://scr/hierba.gd" id="1_3nxlx"]
+[ext_resource type="Texture2D" uid="uid://drid0lbppdysf" path="res://Assets/Grass/tall_grass.png" id="2_0er2g"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uws4q"]
+size = Vector2(16, 16)
+
+[sub_resource type="Animation" id="Animation_7mdak"]
+resource_name = "pasando"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [1, 0]
+}
+
+[sub_resource type="Animation" id="Animation_t7veu"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+
+[sub_resource type="Animation" id="Animation_2810u"]
+resource_name = "Idle"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_es4d6"]
+_data = {
+"Idle": SubResource("Animation_2810u"),
+"RESET": SubResource("Animation_t7veu"),
+"pasando": SubResource("Animation_7mdak")
+}
+
+[node name="Hierba" type="Node2D"]
+script = ExtResource("1_3nxlx")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_0er2g")
+hframes = 2
+frame = 1
+
+[node name="Area2D" type="Area2D" parent="." groups=["grupo"]]
+collision_layer = 7
+collision_mask = 7
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+scale = Vector2(0.8, 0.8)
+shape = SubResource("RectangleShape2D_uws4q")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../Sprite2D")
+libraries = {
+"": SubResource("AnimationLibrary_es4d6")
+}
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

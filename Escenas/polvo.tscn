@@ -1,0 +1,42 @@
+[gd_scene load_steps=7 format=3 uid="uid://b5xh5ijc6glh7"]
+
+[ext_resource type="Texture2D" uid="uid://trybbfpj673h" path="res://Assets/Player/jump_landing_dust.png" id="1_txdvu"]
+[ext_resource type="Script" path="res://scr/polvo.gd" id="2_pbit6"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7y0rc"]
+atlas = ExtResource("1_txdvu")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_goj0c"]
+atlas = ExtResource("1_txdvu")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m635e"]
+atlas = ExtResource("1_txdvu")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6n5nk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7y0rc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_goj0c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m635e")
+}],
+"loop": false,
+"name": &"default",
+"speed": 9.0
+}]
+
+[node name="Polvo" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_6n5nk")
+autoplay = "default"
+frame = 2
+frame_progress = 1.0
+script = ExtResource("2_pbit6")
+
+[connection signal="animation_finished" from="." to="." method="_on_animation_finished"]

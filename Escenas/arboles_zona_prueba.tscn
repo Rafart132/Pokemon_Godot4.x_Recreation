@@ -1,0 +1,1331 @@
+[gd_scene load_steps=2 format=3 uid="uid://dixu184ea21oi"]
+
+[ext_resource type="PackedScene" uid="uid://co5noisfjntta" path="res://Escenas/Arbol.tscn" id="1_xeih3"]
+
+[node name="Arboles_Zona_Prueba" type="Node2D"]
+
+[node name="Arbol283" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-32, -296)
+
+[node name="Arbol284" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-64, -296)
+
+[node name="Arbol285" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-96, -296)
+
+[node name="Arbol286" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-128, -296)
+
+[node name="Arbol287" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, -296)
+
+[node name="Arbol288" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, -296)
+
+[node name="Arbol289" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(160, -296)
+
+[node name="Arbol290" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(128, -296)
+
+[node name="Arbol291" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(96, -296)
+
+[node name="Arbol292" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(64, -296)
+
+[node name="Arbol293" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(32, -296)
+
+[node name="Arbol294" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(0, -296)
+
+[node name="Arbol295" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(352, -296)
+
+[node name="Arbol296" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(320, -296)
+
+[node name="Arbol297" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(288, -296)
+
+[node name="Arbol298" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(256, -296)
+
+[node name="Arbol299" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(224, -296)
+
+[node name="Arbol300" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(192, -296)
+
+[node name="Arbol301" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(544, -296)
+
+[node name="Arbol302" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(512, -296)
+
+[node name="Arbol303" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(480, -296)
+
+[node name="Arbol304" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(448, -296)
+
+[node name="Arbol305" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(416, -296)
+
+[node name="Arbol306" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(384, -296)
+
+[node name="Arbol307" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(704, -296)
+
+[node name="Arbol308" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(672, -296)
+
+[node name="Arbol309" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(640, -296)
+
+[node name="Arbol310" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(608, -296)
+
+[node name="Arbol311" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(576, -296)
+
+[node name="Arbol312" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, -296)
+
+[node name="Arbol313" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, -296)
+
+[node name="Arbol314" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, -296)
+
+[node name="Arbol315" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, -296)
+
+[node name="Arbol241" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-32, -264)
+
+[node name="Arbol247" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-64, -264)
+
+[node name="Arbol316" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-96, -264)
+
+[node name="Arbol317" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-128, -264)
+
+[node name="Arbol318" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, -264)
+
+[node name="Arbol319" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, -264)
+
+[node name="Arbol320" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(160, -264)
+
+[node name="Arbol321" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(128, -264)
+
+[node name="Arbol322" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(96, -264)
+
+[node name="Arbol323" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(64, -264)
+
+[node name="Arbol324" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(32, -264)
+
+[node name="Arbol325" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(0, -264)
+
+[node name="Arbol326" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(352, -264)
+
+[node name="Arbol327" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(320, -264)
+
+[node name="Arbol328" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(288, -264)
+
+[node name="Arbol329" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(256, -264)
+
+[node name="Arbol330" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(224, -264)
+
+[node name="Arbol331" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(192, -264)
+
+[node name="Arbol332" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(544, -264)
+
+[node name="Arbol333" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(512, -264)
+
+[node name="Arbol334" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(480, -264)
+
+[node name="Arbol335" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(448, -264)
+
+[node name="Arbol336" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(416, -264)
+
+[node name="Arbol337" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(384, -264)
+
+[node name="Arbol338" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(704, -264)
+
+[node name="Arbol339" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(672, -264)
+
+[node name="Arbol340" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(640, -264)
+
+[node name="Arbol341" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(608, -264)
+
+[node name="Arbol342" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(576, -264)
+
+[node name="Arbol343" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, -264)
+
+[node name="Arbol344" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, -264)
+
+[node name="Arbol345" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, -264)
+
+[node name="Arbol346" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, -264)
+
+[node name="Arbol249" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-32, -232)
+
+[node name="Arbol250" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-64, -232)
+
+[node name="Arbol251" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-96, -232)
+
+[node name="Arbol252" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-128, -232)
+
+[node name="Arbol253" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, -232)
+
+[node name="Arbol254" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, -232)
+
+[node name="Arbol255" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(160, -232)
+
+[node name="Arbol256" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(128, -232)
+
+[node name="Arbol257" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(96, -232)
+
+[node name="Arbol258" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(64, -232)
+
+[node name="Arbol259" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(32, -232)
+
+[node name="Arbol260" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(0, -232)
+
+[node name="Arbol261" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(352, -232)
+
+[node name="Arbol262" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(320, -232)
+
+[node name="Arbol263" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(288, -232)
+
+[node name="Arbol264" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(256, -232)
+
+[node name="Arbol265" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(224, -232)
+
+[node name="Arbol266" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(192, -232)
+
+[node name="Arbol267" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(544, -232)
+
+[node name="Arbol268" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(512, -232)
+
+[node name="Arbol269" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(480, -232)
+
+[node name="Arbol270" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(448, -232)
+
+[node name="Arbol271" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(416, -232)
+
+[node name="Arbol272" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(384, -232)
+
+[node name="Arbol273" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(704, -232)
+
+[node name="Arbol274" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(672, -232)
+
+[node name="Arbol275" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(640, -232)
+
+[node name="Arbol276" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(608, -232)
+
+[node name="Arbol277" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(576, -232)
+
+[node name="Arbol279" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, -232)
+
+[node name="Arbol280" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, -232)
+
+[node name="Arbol281" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, -232)
+
+[node name="Arbol282" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, -232)
+
+[node name="Arbol" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-32, -200)
+
+[node name="Arbol2" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-64, -200)
+
+[node name="Arbol3" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-96, -200)
+
+[node name="Arbol4" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-128, -200)
+
+[node name="Arbol5" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, -200)
+
+[node name="Arbol6" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, -200)
+
+[node name="Arbol185" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(160, -200)
+
+[node name="Arbol186" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(128, -200)
+
+[node name="Arbol187" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(96, -200)
+
+[node name="Arbol188" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(64, -200)
+
+[node name="Arbol189" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(32, -200)
+
+[node name="Arbol190" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(0, -200)
+
+[node name="Arbol191" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(352, -200)
+
+[node name="Arbol192" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(320, -200)
+
+[node name="Arbol193" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(288, -200)
+
+[node name="Arbol194" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(256, -200)
+
+[node name="Arbol195" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(224, -200)
+
+[node name="Arbol196" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(192, -200)
+
+[node name="Arbol197" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(544, -200)
+
+[node name="Arbol198" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(512, -200)
+
+[node name="Arbol199" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(480, -200)
+
+[node name="Arbol200" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(448, -200)
+
+[node name="Arbol201" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(416, -200)
+
+[node name="Arbol202" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(384, -200)
+
+[node name="Arbol203" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(704, -200)
+
+[node name="Arbol204" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(672, -200)
+
+[node name="Arbol205" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(640, -200)
+
+[node name="Arbol206" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(608, -200)
+
+[node name="Arbol207" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(576, -200)
+
+[node name="Arbol209" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(704, 376)
+
+[node name="Arbol210" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(672, 376)
+
+[node name="Arbol211" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(640, 376)
+
+[node name="Arbol212" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(608, 376)
+
+[node name="Arbol213" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(576, 376)
+
+[node name="Arbol214" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(544, 376)
+
+[node name="Arbol9" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, -168)
+
+[node name="Arbol10" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, -168)
+
+[node name="Arbol13" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, -136)
+
+[node name="Arbol14" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, -136)
+
+[node name="Arbol17" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, -104)
+
+[node name="Arbol18" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, -104)
+
+[node name="Arbol7" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, -72)
+
+[node name="Arbol8" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, -72)
+
+[node name="Arbol11" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, -40)
+
+[node name="Arbol12" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, -40)
+
+[node name="Arbol15" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, -8)
+
+[node name="Arbol16" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, -8)
+
+[node name="Arbol19" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, 24)
+
+[node name="Arbol20" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, 24)
+
+[node name="Arbol21" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, 56)
+
+[node name="Arbol22" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, 56)
+
+[node name="Arbol23" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, 88)
+
+[node name="Arbol24" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, 88)
+
+[node name="Arbol25" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, 120)
+
+[node name="Arbol26" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, 120)
+
+[node name="Arbol27" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, 152)
+
+[node name="Arbol28" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, 152)
+
+[node name="Arbol29" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, 184)
+
+[node name="Arbol30" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, 184)
+
+[node name="Arbol31" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, 216)
+
+[node name="Arbol32" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, 216)
+
+[node name="Arbol33" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, 248)
+
+[node name="Arbol34" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, 248)
+
+[node name="Arbol35" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, -200)
+
+[node name="Arbol36" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, -200)
+
+[node name="Arbol37" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, -168)
+
+[node name="Arbol38" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, -168)
+
+[node name="Arbol39" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, -136)
+
+[node name="Arbol40" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, -136)
+
+[node name="Arbol41" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, -104)
+
+[node name="Arbol42" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, -104)
+
+[node name="Arbol43" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, -72)
+
+[node name="Arbol44" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, -72)
+
+[node name="Arbol45" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, -40)
+
+[node name="Arbol46" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, -40)
+
+[node name="Arbol47" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, -8)
+
+[node name="Arbol48" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, -8)
+
+[node name="Arbol49" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, 24)
+
+[node name="Arbol50" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, 24)
+
+[node name="Arbol51" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, 56)
+
+[node name="Arbol52" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, 56)
+
+[node name="Arbol127" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, 88)
+
+[node name="Arbol128" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, 88)
+
+[node name="Arbol129" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, 120)
+
+[node name="Arbol130" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, 120)
+
+[node name="Arbol131" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, 152)
+
+[node name="Arbol132" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, 152)
+
+[node name="Arbol133" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, 184)
+
+[node name="Arbol134" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, 184)
+
+[node name="Arbol135" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, 216)
+
+[node name="Arbol136" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, 216)
+
+[node name="Arbol137" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, 248)
+
+[node name="Arbol138" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, 248)
+
+[node name="Arbol139" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, 280)
+
+[node name="Arbol140" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, 280)
+
+[node name="Arbol141" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, 312)
+
+[node name="Arbol142" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, 312)
+
+[node name="Arbol143" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, 344)
+
+[node name="Arbol144" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, 344)
+
+[node name="Arbol145" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, 376)
+
+[node name="Arbol146" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, 376)
+
+[node name="Arbol147" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, -200)
+
+[node name="Arbol148" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, -200)
+
+[node name="Arbol149" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, -168)
+
+[node name="Arbol150" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, -168)
+
+[node name="Arbol151" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, -136)
+
+[node name="Arbol152" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, -136)
+
+[node name="Arbol153" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, -104)
+
+[node name="Arbol154" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, -104)
+
+[node name="Arbol155" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, -72)
+
+[node name="Arbol156" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, -72)
+
+[node name="Arbol157" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, -40)
+
+[node name="Arbol158" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, -40)
+
+[node name="Arbol159" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, -8)
+
+[node name="Arbol160" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, -8)
+
+[node name="Arbol161" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, 24)
+
+[node name="Arbol162" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, 24)
+
+[node name="Arbol163" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, 56)
+
+[node name="Arbol164" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, 56)
+
+[node name="Arbol165" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, 88)
+
+[node name="Arbol166" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, 88)
+
+[node name="Arbol167" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, 120)
+
+[node name="Arbol168" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, 120)
+
+[node name="Arbol169" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, 152)
+
+[node name="Arbol170" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, 152)
+
+[node name="Arbol171" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, 184)
+
+[node name="Arbol172" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, 184)
+
+[node name="Arbol173" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, 216)
+
+[node name="Arbol174" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, 216)
+
+[node name="Arbol175" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, 248)
+
+[node name="Arbol176" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, 248)
+
+[node name="Arbol177" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, 280)
+
+[node name="Arbol178" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, 280)
+
+[node name="Arbol179" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, 312)
+
+[node name="Arbol180" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, 312)
+
+[node name="Arbol181" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, 344)
+
+[node name="Arbol182" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, 344)
+
+[node name="Arbol183" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, 376)
+
+[node name="Arbol184" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, 376)
+
+[node name="Arbol53" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-32, 280)
+
+[node name="Arbol54" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-64, 280)
+
+[node name="Arbol55" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-96, 280)
+
+[node name="Arbol56" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-128, 280)
+
+[node name="Arbol57" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, 280)
+
+[node name="Arbol58" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, 280)
+
+[node name="Arbol59" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-32, 312)
+
+[node name="Arbol60" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-64, 312)
+
+[node name="Arbol61" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-96, 312)
+
+[node name="Arbol62" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-128, 312)
+
+[node name="Arbol63" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, 312)
+
+[node name="Arbol64" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, 312)
+
+[node name="Arbol65" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-32, 344)
+
+[node name="Arbol66" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-64, 344)
+
+[node name="Arbol67" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-96, 344)
+
+[node name="Arbol68" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-128, 344)
+
+[node name="Arbol69" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, 344)
+
+[node name="Arbol70" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, 344)
+
+[node name="Arbol71" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-32, 376)
+
+[node name="Arbol72" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-64, 376)
+
+[node name="Arbol73" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-96, 376)
+
+[node name="Arbol74" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-128, 376)
+
+[node name="Arbol75" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, 376)
+
+[node name="Arbol76" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, 376)
+
+[node name="Arbol77" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(160, 376)
+
+[node name="Arbol78" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(128, 376)
+
+[node name="Arbol79" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(96, 376)
+
+[node name="Arbol80" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(64, 376)
+
+[node name="Arbol81" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(32, 376)
+
+[node name="Arbol82" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(0, 376)
+
+[node name="Arbol83" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(352, 376)
+
+[node name="Arbol84" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(320, 376)
+
+[node name="Arbol85" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(288, 376)
+
+[node name="Arbol86" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(256, 376)
+
+[node name="Arbol87" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(224, 376)
+
+[node name="Arbol88" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(192, 376)
+
+[node name="Arbol89" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(544, 376)
+
+[node name="Arbol90" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(512, 376)
+
+[node name="Arbol91" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(480, 376)
+
+[node name="Arbol92" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(448, 376)
+
+[node name="Arbol93" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(416, 376)
+
+[node name="Arbol94" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(384, 376)
+
+[node name="Arbol95" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-32, 408)
+
+[node name="Arbol96" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-64, 408)
+
+[node name="Arbol97" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-96, 408)
+
+[node name="Arbol98" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-128, 408)
+
+[node name="Arbol99" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, 408)
+
+[node name="Arbol100" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, 408)
+
+[node name="Arbol101" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(160, 408)
+
+[node name="Arbol102" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(128, 408)
+
+[node name="Arbol103" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(96, 408)
+
+[node name="Arbol104" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(64, 408)
+
+[node name="Arbol105" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(32, 408)
+
+[node name="Arbol106" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(0, 408)
+
+[node name="Arbol107" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(352, 408)
+
+[node name="Arbol108" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(320, 408)
+
+[node name="Arbol109" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(288, 408)
+
+[node name="Arbol110" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(256, 408)
+
+[node name="Arbol111" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(224, 408)
+
+[node name="Arbol112" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(192, 408)
+
+[node name="Arbol113" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(544, 408)
+
+[node name="Arbol114" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(512, 408)
+
+[node name="Arbol115" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(480, 408)
+
+[node name="Arbol116" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(448, 408)
+
+[node name="Arbol117" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(416, 408)
+
+[node name="Arbol118" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(384, 408)
+
+[node name="Arbol119" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, 408)
+
+[node name="Arbol120" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(704, 408)
+
+[node name="Arbol125" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, 408)
+
+[node name="Arbol126" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, 408)
+
+[node name="Arbol121" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(672, 408)
+
+[node name="Arbol122" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(640, 408)
+
+[node name="Arbol123" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(608, 408)
+
+[node name="Arbol124" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(576, 408)
+
+[node name="Arbol215" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-32, 440)
+
+[node name="Arbol216" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-64, 440)
+
+[node name="Arbol217" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-96, 440)
+
+[node name="Arbol218" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-128, 440)
+
+[node name="Arbol219" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-160, 440)
+
+[node name="Arbol220" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-192, 440)
+
+[node name="Arbol347" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, -296)
+
+[node name="Arbol348" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, -296)
+
+[node name="Arbol349" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, -264)
+
+[node name="Arbol350" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, -264)
+
+[node name="Arbol351" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, -232)
+
+[node name="Arbol352" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, -232)
+
+[node name="Arbol353" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, -200)
+
+[node name="Arbol354" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, -200)
+
+[node name="Arbol355" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, -168)
+
+[node name="Arbol356" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, -168)
+
+[node name="Arbol357" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, -136)
+
+[node name="Arbol358" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, -136)
+
+[node name="Arbol359" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, -104)
+
+[node name="Arbol360" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, -104)
+
+[node name="Arbol361" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, -72)
+
+[node name="Arbol362" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, -72)
+
+[node name="Arbol363" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, -40)
+
+[node name="Arbol364" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, -40)
+
+[node name="Arbol365" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, -8)
+
+[node name="Arbol366" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, -8)
+
+[node name="Arbol367" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, 24)
+
+[node name="Arbol368" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, 24)
+
+[node name="Arbol369" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, 56)
+
+[node name="Arbol370" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, 56)
+
+[node name="Arbol371" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, 88)
+
+[node name="Arbol372" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, 88)
+
+[node name="Arbol373" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, 120)
+
+[node name="Arbol374" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, 120)
+
+[node name="Arbol375" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, 152)
+
+[node name="Arbol376" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, 152)
+
+[node name="Arbol377" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, 184)
+
+[node name="Arbol378" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, 184)
+
+[node name="Arbol379" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, 216)
+
+[node name="Arbol380" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, 216)
+
+[node name="Arbol381" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, 248)
+
+[node name="Arbol382" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, 248)
+
+[node name="Arbol383" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, 280)
+
+[node name="Arbol384" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, 280)
+
+[node name="Arbol385" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, 312)
+
+[node name="Arbol386" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, 312)
+
+[node name="Arbol387" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, 344)
+
+[node name="Arbol388" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, 344)
+
+[node name="Arbol389" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, 376)
+
+[node name="Arbol390" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, 376)
+
+[node name="Arbol391" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, 408)
+
+[node name="Arbol392" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, 408)
+
+[node name="Arbol393" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-224, 440)
+
+[node name="Arbol394" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-256, 440)
+
+[node name="Arbol419" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, -296)
+
+[node name="Arbol420" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, -264)
+
+[node name="Arbol421" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, -232)
+
+[node name="Arbol422" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, -200)
+
+[node name="Arbol423" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, -168)
+
+[node name="Arbol424" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, -136)
+
+[node name="Arbol425" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, -104)
+
+[node name="Arbol426" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, -72)
+
+[node name="Arbol427" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, -40)
+
+[node name="Arbol428" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, -8)
+
+[node name="Arbol429" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, 24)
+
+[node name="Arbol430" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, 56)
+
+[node name="Arbol431" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, 88)
+
+[node name="Arbol432" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, 120)
+
+[node name="Arbol433" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, 152)
+
+[node name="Arbol434" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, 184)
+
+[node name="Arbol435" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, 216)
+
+[node name="Arbol436" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, 248)
+
+[node name="Arbol437" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, 280)
+
+[node name="Arbol438" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, 312)
+
+[node name="Arbol439" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, 344)
+
+[node name="Arbol440" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, 376)
+
+[node name="Arbol441" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, 408)
+
+[node name="Arbol442" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(-288, 440)
+
+[node name="Arbol221" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(160, 440)
+
+[node name="Arbol222" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(128, 440)
+
+[node name="Arbol223" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(96, 440)
+
+[node name="Arbol224" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(64, 440)
+
+[node name="Arbol225" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(32, 440)
+
+[node name="Arbol226" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(0, 440)
+
+[node name="Arbol227" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(352, 440)
+
+[node name="Arbol228" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(320, 440)
+
+[node name="Arbol229" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(288, 440)
+
+[node name="Arbol230" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(256, 440)
+
+[node name="Arbol231" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(224, 440)
+
+[node name="Arbol232" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(192, 440)
+
+[node name="Arbol233" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(544, 440)
+
+[node name="Arbol234" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(512, 440)
+
+[node name="Arbol235" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(480, 440)
+
+[node name="Arbol236" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(448, 440)
+
+[node name="Arbol237" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(416, 440)
+
+[node name="Arbol238" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(384, 440)
+
+[node name="Arbol239" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(736, 440)
+
+[node name="Arbol240" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(704, 440)
+
+[node name="Arbol248" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(800, 440)
+
+[node name="Arbol242" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(768, 440)
+
+[node name="Arbol243" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(672, 440)
+
+[node name="Arbol244" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(640, 440)
+
+[node name="Arbol245" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(608, 440)
+
+[node name="Arbol246" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(576, 440)
+
+[node name="Arbol208" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, 408)
+
+[node name="Arbol278" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(832, 440)
+
+[node name="Arbol395" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, -296)
+
+[node name="Arbol396" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, -264)
+
+[node name="Arbol397" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, -232)
+
+[node name="Arbol398" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, -200)
+
+[node name="Arbol399" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, -168)
+
+[node name="Arbol400" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, -136)
+
+[node name="Arbol401" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, -104)
+
+[node name="Arbol402" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, -72)
+
+[node name="Arbol403" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, -40)
+
+[node name="Arbol404" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, -8)
+
+[node name="Arbol405" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, 24)
+
+[node name="Arbol406" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, 56)
+
+[node name="Arbol407" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, 88)
+
+[node name="Arbol408" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, 120)
+
+[node name="Arbol409" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, 152)
+
+[node name="Arbol410" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, 184)
+
+[node name="Arbol411" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, 216)
+
+[node name="Arbol412" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, 248)
+
+[node name="Arbol413" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, 280)
+
+[node name="Arbol414" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, 312)
+
+[node name="Arbol415" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, 344)
+
+[node name="Arbol416" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, 376)
+
+[node name="Arbol417" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, 408)
+
+[node name="Arbol418" parent="." instance=ExtResource("1_xeih3")]
+position = Vector2(864, 440)

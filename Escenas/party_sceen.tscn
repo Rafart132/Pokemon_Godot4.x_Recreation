@@ -1,0 +1,469 @@
+[gd_scene load_steps=18 format=3 uid="uid://bdvuyvyu0ffwp"]
+
+[ext_resource type="Script" path="res://scr/party_sceen.gd" id="1_7vdrq"]
+[ext_resource type="Texture2D" uid="uid://bw1cwnoglkxxh" path="res://Assets/UI/Pokemon Party/party_background.png" id="2_0274m"]
+[ext_resource type="Texture2D" uid="uid://c0f0kcpx2tla2" path="res://Assets/UI/Pokemon Party/main_pokemon_background.png" id="3_k7jvk"]
+[ext_resource type="Texture2D" uid="uid://cq3fk2o53vbu5" path="res://Assets/Pokemon/Bulbasaur.png" id="4_4lavd"]
+[ext_resource type="FontFile" uid="uid://bbynwymuraxev" path="res://Assets/UI/pkmnfl.ttf" id="5_wkcca"]
+[ext_resource type="Texture2D" uid="uid://c0sovlnqllut5" path="res://Assets/UI/Pokemon Party/gender_icons.png" id="6_e8qf6"]
+[ext_resource type="Texture2D" uid="uid://dc3vc26nd27ph" path="res://Assets/UI/Pokemon Party/healthbar.png" id="7_vasov"]
+[ext_resource type="Texture2D" uid="uid://g6ngbrtn62pd" path="res://Assets/UI/Pokemon Party/standby_pokemon_background.png" id="8_tp3w0"]
+[ext_resource type="Texture2D" uid="uid://o0tmj1n4jj34" path="res://Assets/Pokemon/Pokemon34.png" id="9_4yn8u"]
+[ext_resource type="Texture2D" uid="uid://trde2aaxdrdb" path="res://Assets/Pokemon/Pokemon55.png" id="10_qohva"]
+[ext_resource type="Texture2D" uid="uid://dirb622osyvrn" path="res://Assets/Pokemon/Pokemon94.png" id="11_5ftq1"]
+[ext_resource type="Texture2D" uid="uid://dk20le5rbrdaf" path="res://Assets/Pokemon/Pokemon82.png" id="12_0h2yj"]
+[ext_resource type="Texture2D" uid="uid://bf1kwrc6v054f" path="res://Assets/Pokemon/Pokemon137.png" id="13_3qhhj"]
+[ext_resource type="Texture2D" uid="uid://66poabe1r1kx" path="res://Assets/UI/Pokemon Party/exit_background_button.png" id="14_fstoo"]
+
+[sub_resource type="Animation" id="Animation_2at6l"]
+resource_name = "Idle"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("pokemon:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [0, 1]
+}
+
+[sub_resource type="Animation" id="Animation_kll6n"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("pokemon:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_j0462"]
+_data = {
+"Idle": SubResource("Animation_2at6l"),
+"RESET": SubResource("Animation_kll6n")
+}
+
+[node name="PartySceen" type="Node2D"]
+script = ExtResource("1_7vdrq")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_0274m")
+
+[node name="Zona_Seleccion" type="Node2D" parent="."]
+
+[node name="PrimerSlot" type="Node2D" parent="Zona_Seleccion"]
+
+[node name="fondo" type="Sprite2D" parent="Zona_Seleccion/PrimerSlot"]
+position = Vector2(44, 47)
+texture = ExtResource("3_k7jvk")
+hframes = 2
+
+[node name="pokemon" type="Sprite2D" parent="Zona_Seleccion/PrimerSlot"]
+position = Vector2(20, 44)
+texture = ExtResource("4_4lavd")
+hframes = 2
+region_enabled = true
+region_rect = Rect2(30, 9, 70, 24)
+
+[node name="pokemonName" type="Sprite2D" parent="Zona_Seleccion/PrimerSlot"]
+position = Vector2(72, 40)
+texture = ExtResource("4_4lavd")
+region_enabled = true
+region_rect = Rect2(0, -1, 73, 10)
+
+[node name="LevelLabel" type="Label" parent="Zona_Seleccion/PrimerSlot"]
+offset_left = 49.0
+offset_top = 48.0
+offset_right = 89.0
+offset_bottom = 71.0
+theme_override_fonts/font = ExtResource("5_wkcca")
+theme_override_font_sizes/font_size = 12
+text = "4"
+
+[node name="VidaLabel" type="Label" parent="Zona_Seleccion/PrimerSlot"]
+offset_left = 48.0
+offset_top = 64.0
+offset_right = 88.0
+offset_bottom = 87.0
+theme_override_fonts/font = ExtResource("5_wkcca")
+theme_override_font_sizes/font_size = 12
+text = "10"
+
+[node name="VidaMaxLabel" type="Label" parent="Zona_Seleccion/PrimerSlot"]
+offset_left = 67.0
+offset_top = 64.0
+offset_right = 107.0
+offset_bottom = 87.0
+theme_override_fonts/font = ExtResource("5_wkcca")
+theme_override_font_sizes/font_size = 12
+text = "10"
+
+[node name="Genero" type="Sprite2D" parent="Zona_Seleccion/PrimerSlot"]
+position = Vector2(74, 52)
+texture = ExtResource("6_e8qf6")
+hframes = 2
+frame = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Zona_Seleccion/PrimerSlot"]
+libraries = {
+"": SubResource("AnimationLibrary_j0462")
+}
+autoplay = "Idle"
+
+[node name="TextureProgressBar" type="Sprite2D" parent="Zona_Seleccion/PrimerSlot"]
+position = Vector2(56, 61)
+scale = Vector2(2, 1)
+texture = ExtResource("7_vasov")
+region_enabled = true
+region_rect = Rect2(24, 0, 24, 3)
+
+[node name="SegundoSlot" type="Node2D" parent="Zona_Seleccion"]
+position = Vector2(88, -24)
+
+[node name="fondo" type="Sprite2D" parent="Zona_Seleccion/SegundoSlot"]
+position = Vector2(75, 45)
+texture = ExtResource("8_tp3w0")
+hframes = 2
+
+[node name="pokemon" type="Sprite2D" parent="Zona_Seleccion/SegundoSlot"]
+position = Vector2(14, 44)
+texture = ExtResource("9_4yn8u")
+hframes = 2
+region_enabled = true
+region_rect = Rect2(30, 9, 70, 24)
+
+[node name="pokemonName" type="Sprite2D" parent="Zona_Seleccion/SegundoSlot"]
+position = Vector2(64, 40)
+texture = ExtResource("9_4yn8u")
+region_enabled = true
+region_rect = Rect2(0, -1, 73, 10)
+
+[node name="LevelLabel" type="Label" parent="Zona_Seleccion/SegundoSlot"]
+offset_left = 50.0
+offset_top = 47.0
+offset_right = 90.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("5_wkcca")
+theme_override_font_sizes/font_size = 12
+text = "4"
+
+[node name="VidaLabel" type="Label" parent="Zona_Seleccion/SegundoSlot"]
+offset_left = 112.0
+offset_top = 47.0
+offset_right = 152.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("5_wkcca")
+theme_override_font_sizes/font_size = 12
+text = "10"
+
+[node name="VidaMaxLabel" type="Label" parent="Zona_Seleccion/SegundoSlot"]
+offset_left = 131.0
+offset_top = 47.0
+offset_right = 171.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("5_wkcca")
+theme_override_font_sizes/font_size = 12
+text = "10"
+
+[node name="Genero" type="Sprite2D" parent="Zona_Seleccion/SegundoSlot"]
+position = Vector2(73, 51)
+texture = ExtResource("6_e8qf6")
+hframes = 2
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Zona_Seleccion/SegundoSlot"]
+libraries = {
+"": SubResource("AnimationLibrary_j0462")
+}
+autoplay = "Idle"
+
+[node name="TextureProgressBar" type="Sprite2D" parent="Zona_Seleccion/SegundoSlot"]
+position = Vector2(120, 43.51)
+scale = Vector2(2, 1.00667)
+texture = ExtResource("7_vasov")
+region_enabled = true
+region_rect = Rect2(24, 0, 24, 3)
+
+[node name="TercerSlot" type="Node2D" parent="Zona_Seleccion"]
+position = Vector2(88, 0)
+
+[node name="fondo" type="Sprite2D" parent="Zona_Seleccion/TercerSlot"]
+position = Vector2(75, 45)
+texture = ExtResource("8_tp3w0")
+hframes = 2
+
+[node name="pokemon" type="Sprite2D" parent="Zona_Seleccion/TercerSlot"]
+position = Vector2(14, 44)
+texture = ExtResource("10_qohva")
+hframes = 2
+region_enabled = true
+region_rect = Rect2(30, 9, 70, 24)
+
+[node name="pokemonName" type="Sprite2D" parent="Zona_Seleccion/TercerSlot"]
+position = Vector2(64, 40)
+texture = ExtResource("10_qohva")
+region_enabled = true
+region_rect = Rect2(0, -1, 73, 10)
+
+[node name="LevelLabel" type="Label" parent="Zona_Seleccion/TercerSlot"]
+offset_left = 50.0
+offset_top = 47.0
+offset_right = 90.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("5_wkcca")
+theme_override_font_sizes/font_size = 12
+text = "4"
+
+[node name="VidaLabel" type="Label" parent="Zona_Seleccion/TercerSlot"]
+offset_left = 112.0
+offset_top = 47.0
+offset_right = 152.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("5_wkcca")
+theme_override_font_sizes/font_size = 12
+text = "10"
+
+[node name="VidaMaxLabel" type="Label" parent="Zona_Seleccion/TercerSlot"]
+offset_left = 131.0
+offset_top = 47.0
+offset_right = 171.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("5_wkcca")
+theme_override_font_sizes/font_size = 12
+text = "10"
+
+[node name="Genero" type="Sprite2D" parent="Zona_Seleccion/TercerSlot"]
+position = Vector2(73, 51)
+texture = ExtResource("6_e8qf6")
+hframes = 2
+frame = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Zona_Seleccion/TercerSlot"]
+libraries = {
+"": SubResource("AnimationLibrary_j0462")
+}
+autoplay = "Idle"
+
+[node name="TextureProgressBar" type="Sprite2D" parent="Zona_Seleccion/TercerSlot"]
+position = Vector2(120, 43.51)
+scale = Vector2(2, 1.00667)
+texture = ExtResource("7_vasov")
+region_enabled = true
+region_rect = Rect2(24, 0, 24, 3)
+
+[node name="CuartoSlot" type="Node2D" parent="Zona_Seleccion"]
+position = Vector2(88, 24)
+
+[node name="fondo" type="Sprite2D" parent="Zona_Seleccion/CuartoSlot"]
+position = Vector2(75, 45)
+texture = ExtResource("8_tp3w0")
+hframes = 2
+
+[node name="pokemon" type="Sprite2D" parent="Zona_Seleccion/CuartoSlot"]
+position = Vector2(14, 44)
+texture = ExtResource("11_5ftq1")
+hframes = 2
+region_enabled = true
+region_rect = Rect2(30, 9, 70, 24)
+
+[node name="pokemonName" type="Sprite2D" parent="Zona_Seleccion/CuartoSlot"]
+position = Vector2(64, 40)
+texture = ExtResource("11_5ftq1")
+region_enabled = true
+region_rect = Rect2(0, -1, 73, 10)
+
+[node name="LevelLabel" type="Label" parent="Zona_Seleccion/CuartoSlot"]
+offset_left = 50.0
+offset_top = 47.0
+offset_right = 90.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("5_wkcca")
+theme_override_font_sizes/font_size = 12
+text = "4"
+
+[node name="VidaLabel" type="Label" parent="Zona_Seleccion/CuartoSlot"]
+offset_left = 112.0
+offset_top = 47.0
+offset_right = 152.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("5_wkcca")
+theme_override_font_sizes/font_size = 12
+text = "10"
+
+[node name="VidaMaxLabel" type="Label" parent="Zona_Seleccion/CuartoSlot"]
+offset_left = 131.0
+offset_top = 47.0
+offset_right = 171.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("5_wkcca")
+theme_override_font_sizes/font_size = 12
+text = "10"
+
+[node name="Genero" type="Sprite2D" parent="Zona_Seleccion/CuartoSlot"]
+position = Vector2(73, 51)
+texture = ExtResource("6_e8qf6")
+hframes = 2
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Zona_Seleccion/CuartoSlot"]
+libraries = {
+"": SubResource("AnimationLibrary_j0462")
+}
+autoplay = "Idle"
+
+[node name="TextureProgressBar" type="Sprite2D" parent="Zona_Seleccion/CuartoSlot"]
+position = Vector2(120, 43.51)
+scale = Vector2(2, 1.00667)
+texture = ExtResource("7_vasov")
+region_enabled = true
+region_rect = Rect2(24, 0, 24, 3)
+
+[node name="QuintoSlot" type="Node2D" parent="Zona_Seleccion"]
+position = Vector2(88, 48)
+
+[node name="fondo" type="Sprite2D" parent="Zona_Seleccion/QuintoSlot"]
+position = Vector2(75, 45)
+texture = ExtResource("8_tp3w0")
+hframes = 2
+
+[node name="pokemon" type="Sprite2D" parent="Zona_Seleccion/QuintoSlot"]
+position = Vector2(14, 44)
+texture = ExtResource("12_0h2yj")
+hframes = 2
+region_enabled = true
+region_rect = Rect2(30, 9, 70, 24)
+
+[node name="pokemonName" type="Sprite2D" parent="Zona_Seleccion/QuintoSlot"]
+position = Vector2(64, 40)
+texture = ExtResource("12_0h2yj")
+region_enabled = true
+region_rect = Rect2(0, -1, 73, 10)
+
+[node name="LevelLabel" type="Label" parent="Zona_Seleccion/QuintoSlot"]
+offset_left = 50.0
+offset_top = 47.0
+offset_right = 90.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("5_wkcca")
+theme_override_font_sizes/font_size = 12
+text = "4"
+
+[node name="VidaLabel" type="Label" parent="Zona_Seleccion/QuintoSlot"]
+offset_left = 112.0
+offset_top = 47.0
+offset_right = 152.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("5_wkcca")
+theme_override_font_sizes/font_size = 12
+text = "10"
+
+[node name="VidaMaxLabel" type="Label" parent="Zona_Seleccion/QuintoSlot"]
+offset_left = 131.0
+offset_top = 47.0
+offset_right = 171.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("5_wkcca")
+theme_override_font_sizes/font_size = 12
+text = "10"
+
+[node name="Genero" type="Sprite2D" parent="Zona_Seleccion/QuintoSlot"]
+visible = false
+position = Vector2(73, 51)
+texture = ExtResource("6_e8qf6")
+hframes = 2
+region_enabled = true
+region_rect = Rect2(0, 0, 10, 8)
+region_filter_clip_enabled = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Zona_Seleccion/QuintoSlot"]
+libraries = {
+"": SubResource("AnimationLibrary_j0462")
+}
+autoplay = "Idle"
+
+[node name="TextureProgressBar" type="Sprite2D" parent="Zona_Seleccion/QuintoSlot"]
+position = Vector2(120, 43.51)
+scale = Vector2(2, 1.00667)
+texture = ExtResource("7_vasov")
+region_enabled = true
+region_rect = Rect2(24, 0, 24, 3)
+
+[node name="SextoSlot5" type="Node2D" parent="Zona_Seleccion"]
+position = Vector2(88, 72)
+
+[node name="fondo" type="Sprite2D" parent="Zona_Seleccion/SextoSlot5"]
+position = Vector2(75, 45)
+texture = ExtResource("8_tp3w0")
+hframes = 2
+
+[node name="pokemon" type="Sprite2D" parent="Zona_Seleccion/SextoSlot5"]
+position = Vector2(14, 44)
+texture = ExtResource("13_3qhhj")
+hframes = 2
+region_enabled = true
+region_rect = Rect2(30, 9, 70, 24)
+
+[node name="pokemonName" type="Sprite2D" parent="Zona_Seleccion/SextoSlot5"]
+position = Vector2(64, 40)
+texture = ExtResource("13_3qhhj")
+region_enabled = true
+region_rect = Rect2(0, -1, 73, 10)
+
+[node name="LevelLabel" type="Label" parent="Zona_Seleccion/SextoSlot5"]
+offset_left = 50.0
+offset_top = 47.0
+offset_right = 90.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("5_wkcca")
+theme_override_font_sizes/font_size = 12
+text = "100"
+
+[node name="VidaLabel" type="Label" parent="Zona_Seleccion/SextoSlot5"]
+offset_left = 112.0
+offset_top = 47.0
+offset_right = 152.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("5_wkcca")
+theme_override_font_sizes/font_size = 12
+text = "10"
+
+[node name="VidaMaxLabel" type="Label" parent="Zona_Seleccion/SextoSlot5"]
+offset_left = 131.0
+offset_top = 47.0
+offset_right = 171.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("5_wkcca")
+theme_override_font_sizes/font_size = 12
+text = "10"
+
+[node name="Genero" type="Sprite2D" parent="Zona_Seleccion/SextoSlot5"]
+position = Vector2(73, 51)
+texture = ExtResource("6_e8qf6")
+hframes = 2
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Zona_Seleccion/SextoSlot5"]
+libraries = {
+"": SubResource("AnimationLibrary_j0462")
+}
+autoplay = "Idle"
+
+[node name="TextureProgressBar" type="Sprite2D" parent="Zona_Seleccion/SextoSlot5"]
+position = Vector2(120, 43.51)
+scale = Vector2(2, 1.00667)
+texture = ExtResource("7_vasov")
+region_enabled = true
+region_rect = Rect2(24, 0, 24, 3)
+
+[node name="CANCEL" type="Sprite2D" parent="Zona_Seleccion"]
+position = Vector2(211, 144)
+texture = ExtResource("14_fstoo")
+hframes = 2
