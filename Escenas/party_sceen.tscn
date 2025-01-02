@@ -397,28 +397,28 @@ texture = ExtResource("7_vasov")
 region_enabled = true
 region_rect = Rect2(24, 0, 24, 3)
 
-[node name="SextoSlot5" type="Node2D" parent="Zona_Seleccion"]
+[node name="SextoSlot" type="Node2D" parent="Zona_Seleccion"]
 position = Vector2(88, 72)
 
-[node name="fondo" type="Sprite2D" parent="Zona_Seleccion/SextoSlot5"]
+[node name="fondo" type="Sprite2D" parent="Zona_Seleccion/SextoSlot"]
 position = Vector2(75, 45)
 texture = ExtResource("8_tp3w0")
 hframes = 2
 
-[node name="pokemon" type="Sprite2D" parent="Zona_Seleccion/SextoSlot5"]
+[node name="pokemon" type="Sprite2D" parent="Zona_Seleccion/SextoSlot"]
 position = Vector2(14, 44)
 texture = ExtResource("13_3qhhj")
 hframes = 2
 region_enabled = true
 region_rect = Rect2(30, 9, 70, 24)
 
-[node name="pokemonName" type="Sprite2D" parent="Zona_Seleccion/SextoSlot5"]
+[node name="pokemonName" type="Sprite2D" parent="Zona_Seleccion/SextoSlot"]
 position = Vector2(64, 40)
 texture = ExtResource("13_3qhhj")
 region_enabled = true
 region_rect = Rect2(0, -1, 73, 10)
 
-[node name="LevelLabel" type="Label" parent="Zona_Seleccion/SextoSlot5"]
+[node name="LevelLabel" type="Label" parent="Zona_Seleccion/SextoSlot"]
 offset_left = 50.0
 offset_top = 47.0
 offset_right = 90.0
@@ -427,7 +427,7 @@ theme_override_fonts/font = ExtResource("5_wkcca")
 theme_override_font_sizes/font_size = 12
 text = "100"
 
-[node name="VidaLabel" type="Label" parent="Zona_Seleccion/SextoSlot5"]
+[node name="VidaLabel" type="Label" parent="Zona_Seleccion/SextoSlot"]
 offset_left = 112.0
 offset_top = 47.0
 offset_right = 152.0
@@ -436,7 +436,7 @@ theme_override_fonts/font = ExtResource("5_wkcca")
 theme_override_font_sizes/font_size = 12
 text = "10"
 
-[node name="VidaMaxLabel" type="Label" parent="Zona_Seleccion/SextoSlot5"]
+[node name="VidaMaxLabel" type="Label" parent="Zona_Seleccion/SextoSlot"]
 offset_left = 131.0
 offset_top = 47.0
 offset_right = 171.0
@@ -445,18 +445,18 @@ theme_override_fonts/font = ExtResource("5_wkcca")
 theme_override_font_sizes/font_size = 12
 text = "10"
 
-[node name="Genero" type="Sprite2D" parent="Zona_Seleccion/SextoSlot5"]
+[node name="Genero" type="Sprite2D" parent="Zona_Seleccion/SextoSlot"]
 position = Vector2(73, 51)
 texture = ExtResource("6_e8qf6")
 hframes = 2
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Zona_Seleccion/SextoSlot5"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Zona_Seleccion/SextoSlot"]
 libraries = {
 "": SubResource("AnimationLibrary_j0462")
 }
 autoplay = "Idle"
 
-[node name="TextureProgressBar" type="Sprite2D" parent="Zona_Seleccion/SextoSlot5"]
+[node name="TextureProgressBar" type="Sprite2D" parent="Zona_Seleccion/SextoSlot"]
 position = Vector2(120, 43.51)
 scale = Vector2(2, 1.00667)
 texture = ExtResource("7_vasov")
