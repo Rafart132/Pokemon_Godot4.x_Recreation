@@ -10,6 +10,7 @@ signal player_entrando_signal
 @warning_ignore("unused_signal")
 signal player_entro_signal
 
+var equipo: Array[PokemonData] = []
 
 @onready var sprite : Sprite2D = $Sprite2D
 @onready var sombra : Sprite2D = $Sombra
@@ -54,6 +55,11 @@ func _ready() -> void:
 	anim_tree.set("parameters/Idle/blend_position", input_direction)
 	anim_tree.set("parameters/Walk/blend_position", input_direction)
 	anim_tree.set("parameters/Turn/blend_position", input_direction)
+
+	var porygon = load("res://scr/pokemon/Porygon.tres")
+	var jyxn = load("res://scr/pokemon/Jyxn.tres")
+	registrar_pokemon(porygon)
+	registrar_pokemon(jyxn)
 
 func set_spawn(locacion: Vector2, direction: Vector2):
 	anim_tree.set("parameters/Idle/blend_position", direction)
@@ -181,3 +187,10 @@ func move(delta):
 			position = initial_position + (input_direction * TILE_SIZE * percent_moved_to_next_tile)
 	else:
 		is_moving = false
+
+func registrar_pokemon(nuevo_pokemon: PokemonData):
+	if equipo.size() < 6:
+		equipo.append(nuevo_pokemon)
+		print("Se agregó a", nuevo_pokemon.nombre, "al equipo.")
+	else:
+		print("El equipo está lleno. No se puede agregar más Pokémon.")

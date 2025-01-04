@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="PokemonData" load_steps=3 format=3 uid="uid://cpmsbf43ntntb"]
+
+[ext_resource type="Script" path="res://scr/pokemon/PokemonData.gd" id="1_5hh6w"]
+[ext_resource type="Texture2D" uid="uid://cub5oimfde0eu" path="res://Assets/Pokemon/Pokemon124.png" id="2_qwx6c"]
+
+[resource]
+script = ExtResource("1_5hh6w")
+nombre = "Jyxn"
+sprite = ExtResource("2_qwx6c")
+nivel = 50
+hp_actual = 44
+hp_max = 50
+experiencia = 0
+movimientos = Array[String]([])
+objeto = ""
+notas_entrenador = ""

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://dhbt2sbs4eoue"]
+
+[ext_resource type="Script" path="res://scr/pokemon/PokemonData.gd" id="1_ccj4o"]
+[ext_resource type="Texture2D" uid="uid://bf1kwrc6v054f" path="res://Assets/Pokemon/Pokemon137.png" id="2_8qu6t"]
+
+[resource]
+script = ExtResource("1_ccj4o")
+nombre = "Porygon"
+sprite = ExtResource("2_8qu6t")
+nivel = 100
+hp_actual = 23
+hp_max = 23
+experiencia = 0
+movimientos = Array[String](["Recuperacion", "Adaptacion"])
+objeto = ""
+notas_entrenador = "Mm..."
