@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cfu7v51pd0o24"
-path="res://.godot/imported/18_sin_titulo_20241214205958.png-4da37d37cdc0bb829e42a9f3789f57bd.ctex"
+uid="uid://dny66sc41honf"
+path="res://.godot/imported/lago.png-638ad40f9a2e269e6625c0036c0acfed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/18_sin_titulo_20241214205958.png"
-dest_files=["res://.godot/imported/18_sin_titulo_20241214205958.png-4da37d37cdc0bb829e42a9f3789f57bd.ctex"]
+source_file="res://Assets/Tilesets/lago.png"
+dest_files=["res://.godot/imported/lago.png-638ad40f9a2e269e6625c0036c0acfed.ctex"]
 
 [params]
 

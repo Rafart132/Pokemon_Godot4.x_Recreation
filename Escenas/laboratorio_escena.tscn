@@ -39,7 +39,7 @@ y_sort_enabled = true
 position = Vector2(280, 160)
 
 [node name="Bruno" parent="escena" instance=ExtResource("5_1v101")]
-position = Vector2(16, -32)
+position = Vector2(304, 56)
 walk_speed = 5.0
 
 [node name="Mesa" type="StaticBody2D" parent="escena"]

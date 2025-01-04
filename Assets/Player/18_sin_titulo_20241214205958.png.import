@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://vasxnjgugues"
-path="res://.godot/imported/17_sin_titulo_20241214205241.png-e8640294b758f10799500de82af34423.ctex"
+uid="uid://cfu7v51pd0o24"
+path="res://.godot/imported/18_sin_titulo_20241214205958.png-6feadc777ba54c46386f123bd23a6514.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/17_sin_titulo_20241214205241.png"
-dest_files=["res://.godot/imported/17_sin_titulo_20241214205241.png-e8640294b758f10799500de82af34423.ctex"]
+source_file="res://Assets/Player/18_sin_titulo_20241214205958.png"
+dest_files=["res://.godot/imported/18_sin_titulo_20241214205958.png-6feadc777ba54c46386f123bd23a6514.ctex"]
 
 [params]
 

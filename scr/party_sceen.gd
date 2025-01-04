@@ -1,5 +1,9 @@
 extends Node2D
 
+
+enum Tranciciontype {ESCENA, SOLO_MENU}
+var tipo_trancicion = Tranciciontype.ESCENA
+
 enum Options { PRIMER_SLOT, SEGUNDO_SLOT, TERCER_SLOT, CUARTO_SLOT, QUINTO_SLOT, SEXTO_SLOT, CANCEL }
 var selected_option: int = Options.PRIMER_SLOT
 
@@ -69,3 +73,15 @@ func _input(event: InputEvent) -> void:
 		match selected_option:
 			Options.CANCEL:
 				Utils.get_administrador_escenas().trancicion_salir_partysceen()	
+			Options.PRIMER_SLOT:
+				$Seleccion.show()
+			Options.SEGUNDO_SLOT:
+				pass
+			Options.TERCER_SLOT:
+				pass
+			Options.CUARTO_SLOT:
+				pass
+			Options.QUINTO_SLOT:
+				pass
+			Options.SEXTO_SLOT:
+				pass

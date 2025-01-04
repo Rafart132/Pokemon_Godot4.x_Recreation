@@ -25,9 +25,6 @@ func _ready() -> void:
 	Menu.hide()
 	Flecha_seleccion.position.y = 6 + (selected_option % opciones) * 15
 
-func  _process(_delta: float) -> void:
-	print(selected_option)
-	pass
 func cargar_partysceen():
 	Menu.hide()
 	screen_loader = ScreenLoader.PARTY
@@ -50,7 +47,7 @@ func _unhandled_input(event: InputEvent) -> void:
 					screen_loader = ScreenLoader.MENU
 
 		ScreenLoader.MENU:
-			if event.is_action_pressed("B"):
+			if event.is_action_pressed("B") or event.is_action_pressed("Pause"):
 				var player = Utils.get_Player()
 				player.set_physics_process(true)
 				Menu.hide()
@@ -76,6 +73,8 @@ func _unhandled_input(event: InputEvent) -> void:
 						player.set_physics_process(true)
 						Menu.hide()
 						screen_loader = ScreenLoader.NOTHING
+					Opciones.GUARDAR:
+						Utils.Spawn().position = Utils.get_Player().position
 		
 		ScreenLoader.PARTY:
 			pass

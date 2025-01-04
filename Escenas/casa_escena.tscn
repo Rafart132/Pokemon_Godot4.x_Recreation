@@ -26,7 +26,7 @@ y_sort_enabled = true
 position = Vector2(280, 160)
 
 [node name="Bruno" parent="escena" instance=ExtResource("3_j8hof")]
-position = Vector2(-40, 64)
+position = Vector2(-152, 16)
 walk_speed = 5.0
 
 [node name="Puerta" parent="." instance=ExtResource("4_jcjix")]

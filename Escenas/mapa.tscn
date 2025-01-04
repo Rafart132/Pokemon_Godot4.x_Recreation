@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://coerpppiqd3r4" path="res://Assets/Tilesets/grass2_tileset.png" id="2_0c321"]
 [ext_resource type="PackedScene" uid="uid://dgtb5oms8qohk" path="res://Escenas/bruno.tscn" id="3_lmoj6"]
 [ext_resource type="Texture2D" uid="uid://wiwwgirajbdn" path="res://Assets/Tilesets/fence1_tileset.png" id="3_r358a"]
-[ext_resource type="Texture2D" uid="uid://dny66sc41honf" path="res://Assets/lago.png" id="4_04bl2"]
+[ext_resource type="Texture2D" uid="uid://dny66sc41honf" path="res://Assets/Tilesets/lago.png" id="4_04bl2"]
 [ext_resource type="Texture2D" uid="uid://5yjmkoxasfws" path="res://Assets/Tilesets/ledge.png" id="5_d64bh"]
 [ext_resource type="PackedScene" uid="uid://c2ibokrp4kqa7" path="res://Escenas/Laboratorio.tscn" id="6_ybbfv"]
 [ext_resource type="Texture2D" uid="uid://h4p2o6k4uo5n" path="res://Assets/Flowers/red_flower.png" id="8_qqpd0"]
@@ -726,7 +726,7 @@ texture = ExtResource("11_gqay8")
 shape = SubResource("RectangleShape2D_fsluu")
 
 [node name="Bruno" parent="terreno" instance=ExtResource("3_lmoj6")]
-position = Vector2(-56, -40)
+position = Vector2(24, 72)
 walk_speed = 5.0
 jump_speed = 3.0
 
@@ -2059,5 +2059,10 @@ position = Vector2(864, 408)
 
 [node name="Arbol418" parent="terreno/Arboles_Zona_Prueba" instance=ExtResource("9_mv0fi")]
 position = Vector2(864, 440)
+
+[node name="Spawn" type="Node2D" parent="."]
+
+[node name="spawn" type="Marker2D" parent="Spawn"]
+position = Vector2(440, 152)
 
 [editable path="terreno/Casa/Puerta"]

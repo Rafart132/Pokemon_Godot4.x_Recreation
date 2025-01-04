@@ -4,7 +4,8 @@ extends Area2D
 @export_file() var nueva_escena = ""
 @export var es_invisible: bool = false
 
-@export var spawn_location: Vector2 = Vector2(0, 0)
+@export var spawn_location: Vector2 = Vector2(0,0)
+
 @export var spawn_direction: Vector2 = Vector2(0, 0)
 
 @onready var Sprite: Sprite2D = $Sprite2D

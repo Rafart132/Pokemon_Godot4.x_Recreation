@@ -6,13 +6,18 @@ extends Node2D
 
 var Siguiente_escena = null
 
-var player_location: Vector2 = Vector2(0, 0)
+
+var player_location: Vector2 = Vector2(0,0)
 var player_direccion: Vector2 = Vector2(0, 0)
 
 enum Tranciciontype {NUEVA_ESCENA, PARTY_SCREEN, SOLO_MENU}
 var tipo_trancicion = Tranciciontype.NUEVA_ESCENA
 
+enum Party {PARTY_MENU, PARTY_SOLO}
+var tipo_party = Party.PARTY_MENU
+
 func _ready() -> void:
+	Utils.get_Player().position = Utils.Spawn().position
 	anim.play("Quitar")
 
 func trancicion_partysceen():
@@ -46,3 +51,8 @@ func terminar_transicion():
 		Tranciciontype.SOLO_MENU:
 			$Menu.quitar_partysceen()
 	anim.play("Quitar")
+	
+	if $EscenaActual.find_child("party_sceen"):
+		match tipo_party:
+			Party.PARTY_MENU:
+				$Menu_Party.quitar_partysceen()
